@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+rootdir=$(dirname $(dirname $(realpath $0)))
+$rootdir/node_modules/.bin/ts-node $rootdir/src/cli.ts "$@"

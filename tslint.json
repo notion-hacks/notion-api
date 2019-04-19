@@ -1,0 +1,17 @@
+{
+	"extends": ["tslint-react"],
+	"rules": {
+		"jsx-boolean-value": [false],
+		"jsx-no-lambda": [false],
+		"jsx-no-multiline-js": [false],
+		"jsx-wrap-multiline": [false],
+		"jsx-curly-spacing": [false],
+		"triple-equals": true,
+		"no-unused-variable": [true, "react"],
+		"semicolon": [true, "never"],
+		"curly": true,
+		"prefer-const": true,
+		"no-debugger": true,
+		"no-console": [true, "log", "error", "trace", "time", "timeEnd"]
+	}
+}

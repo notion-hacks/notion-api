@@ -1,0 +1,36 @@
+{
+  "name": "notion-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "login": "ts-node src/login.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^11.13.5",
+    "@types/node-fetch": "^2.3.2",
+    "inquirer": "^6.3.1",
+    "node-fetch": "^2.3.0",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^5.0.5",
+    "@types/lodash": "^4.14.123",
+    "@types/tough-cookie": "^2.3.5",
+    "@types/yargs": "^13.0.0",
+    "cookie-parser": "^1.4.4",
+    "fs-extra": "^7.0.1",
+    "got": "^9.6.0",
+    "lodash": "^4.17.11",
+    "oclif": "^1.13.1",
+    "ora": "^3.4.0",
+    "tough-cookie": "^3.0.1",
+    "tough-cookie-store": "git://github.com/cath-gh/tough-cookie-store.git#bde521e",
+    "ts-node": "^8.1.0",
+    "yargs": "^13.2.2"
+  }
+}

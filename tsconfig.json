@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": false,
+		"target": "es5",
+		"module": "commonjs",
+		"jsx": "react",
+		"moduleResolution": "node",
+		"noImplicitAny": false,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"removeComments": true,
+		"strictNullChecks": true,
+		"preserveConstEnums": true,
+		"noImplicitThis": true,
+		"sourceMap": true,
+		"allowJs": true,
+		"outDir": "build",
+		"baseUrl": ".",
+		"paths": {
+			"*": ["node_modules/*"]
+		},
+		"lib": ["es2015", "es2016", "es2017", "esnext.asynciterable"]
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
+}
